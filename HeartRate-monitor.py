@@ -1,3 +1,5 @@
+### IMPORTANT - Check code comments for correct implementation ###
+
 from machine import Pin, ADC, I2C
 import time
 from fifo import Fifo
