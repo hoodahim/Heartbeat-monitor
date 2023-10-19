@@ -23,3 +23,7 @@ https://github.com/hoodahim/Heartbeat-monitor/blob/main/G7%20Final%20Project%20R
 ### Implementation in raspberry pi 
 
 Upload the HeartRate-Monitor.py file to raspberry pi and rename the file as main (this will allow to run the program on powerup)
+
+Additional libraries are also need to run the program which can be downloaded from this link
+
+https://gitlab.metropolia.fi/lansk/picow mip example
