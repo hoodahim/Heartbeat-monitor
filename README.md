@@ -18,3 +18,8 @@ The software used for implementation:
 
 A detailed description of the project understanding can be read from:
 https://github.com/hoodahim/Heartbeat-monitor/blob/main/G7%20Final%20Project%20Report.pdf
+
+
+### Implementation in raspberry pi 
+
+Upload the HeartRate-Monitor.py file to raspberry pi and rename the file as main (this will allow to run the program on powerup)
