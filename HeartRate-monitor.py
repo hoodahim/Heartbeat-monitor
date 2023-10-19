@@ -93,7 +93,7 @@ def wifi_try_connect(ssid, password, max_wait):
 
 def HR():
     global switch
-    time.sleep(.5)
+    time.sleep(.2)
     switch = False
     display.fill(0)
     display.text('Please Wait...', 0, 20, 1)
@@ -127,12 +127,12 @@ def HR():
                 norm_ppi_lst.clear()
                 peak_lst.clear()
                 sample_lst.clear()
-    time.sleep(.5)            
+    time.sleep(.2)            
     switch = False
     
 def basic_analysis():
     global switch
-    time.sleep(.5)
+    time.sleep(.2)
     display.fill(0)
     display.text('Please Wait...', 0, 20, 1)
     display.show()
@@ -166,12 +166,12 @@ def basic_analysis():
                 ppi_lst.clear()
                 norm_ppi_lst.clear()
                 peak_lst.clear()
-    time.sleep(.5)
+    time.sleep(.2)
     switch = False
     
 def Kubios_HRV():
     global switch
-    time.sleep(.5)
+    time.sleep(.2)
     switch = False
     display.fill(0)
     display.text('Please Wait...', 0, 20, 1)
@@ -223,7 +223,7 @@ def Kubios_HRV():
                     display.text(f'{Kubios_result['analysis']['sns_index']}', 5, 40, 1)
                     display.show()
                     ppi_lst.clear()
-    time.sleep(.5)
+    time.sleep(.2)
     switch = False
     
 
