@@ -27,3 +27,5 @@ Upload the HeartRate-Monitor.py file to raspberry pi and rename the file as main
 Additional libraries are also need to run the program which can be downloaded from this link
 
 https://gitlab.metropolia.fi/lansk/picow-mip-example
+
+![image](https://github.com/hoodahim/Heartbeat-monitor/assets/111939973/08882011-aea5-49ac-8c55-6135465baefb)
